@@ -67,7 +67,7 @@
   parent: ClothingOuterWinterCoat
   id: ClothingOuterWinterVuiosh
   name: вуйош
-  description: Традиційний теплий піджак із домотканого валяного сукна, оздоблений коміром, манжетами та накладними кишенями.
+  description: Традиційний теплий піджак долинян із домотканого валяного сукна, оздоблений коміром, манжетами та накладними кишенями.
   components:
   - type: Sprite
     sprite: _Mriya/Clothing/OuterClothing/WinterCoats/vuiosh.rsi
