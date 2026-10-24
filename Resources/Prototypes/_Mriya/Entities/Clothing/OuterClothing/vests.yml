@@ -15,7 +15,7 @@
   parent: ClothingOuterBase
   id: ClothingOuterKeptar
   name: кептар
-  description: Традиційний неоздоблений безрукавний верхній одяг.
+  description: Традиційний неоздоблений безрукавний верхній одяг, виготовлений з овечої шкіри.
   components:
   - type: Sprite
     sprite: _Mriya/Clothing/OuterClothing/Vests/keptar.rsi
@@ -150,7 +150,7 @@
   parent: ClothingOuterBase
   id: ClothingOuterLeibykBlack
   name: чорний лейбик
-  description: Традиційний лейбик чорного кольору.
+  description: Традиційний лейбик, безрукавка виготовлена з тканини чорного кольору.
   components:
   - type: Sprite
     sprite: _Mriya/Clothing/OuterClothing/Vests/leibyk_black.rsi
@@ -162,7 +162,7 @@
   parent: ClothingOuterBase
   id: ClothingOuterLeibykBlue
   name: синій лейбик
-  description: Традиційний лейбик синього кольору.
+  description: Традиційний лейбик, безрукавка виготовлена з тканини синього кольору.
   components:
   - type: Sprite
     sprite: _Mriya/Clothing/OuterClothing/Vests/leibyk_blue.rsi
@@ -174,7 +174,7 @@
   parent: ClothingOuterBase
   id: ClothingOuterLeibykRed
   name: червоний лейбик
-  description: Традиційний лейбик червоного кольору.
+  description: Традиційний лейбик, безрукавка виготовлена з тканини червоного кольору.
   components:
   - type: Sprite
     sprite: _Mriya/Clothing/OuterClothing/Vests/leibyk_red.rsi
