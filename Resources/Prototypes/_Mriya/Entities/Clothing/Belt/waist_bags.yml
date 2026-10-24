@@ -1,0 +1,35 @@
+﻿- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltStorageTabivka
+  name: табівка
+  description: Традиційна шкіряна сумка, яку носять на поясі для зберігання особистих речей. У центрі орнаменту зображено двох птахів.
+  components:
+  - type: Sprite
+    sprite: _Mriya/Clothing/Belt/tabivka.rsi
+  - type: Clothing
+    sprite: _Mriya/Clothing/Belt/tabivka.rsi
+  - type: Storage
+    grid:
+    - 0,0,3,1
+  - type: Item
+    size: Ginormous
+    shape:
+    - 0,0,4,1
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltStorageCzeres
+  name: черес
+  description: Традиційний широкий шкіряний пояс із кишенями, який використовували для зберігання особистих речей.
+  components:
+  - type: Sprite
+    sprite: _Mriya/Clothing/Belt/czeres.rsi
+  - type: Clothing
+    sprite: _Mriya/Clothing/Belt/czeres.rsi
+  - type: Storage
+    grid:
+    - 0,0,3,1
+  - type: Item
+    size: Ginormous
+    shape:
+    - 0,0,4,1
