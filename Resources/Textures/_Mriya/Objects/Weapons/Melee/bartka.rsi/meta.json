@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "license": "CC-BY-SA-3.0",
+  "license": "CC-BY-NC-SA-3.0",
   "copyright": "Made by Sg5uuu",
   "size": {
     "x": 32,
@@ -11,15 +11,19 @@
       "name": "icon"
     },
     {
-      "name": "equipped-BELT",
-      "directions": 4
-    },
-    {
       "name": "inhand-left",
       "directions": 4
     },
     {
       "name": "inhand-right",
+      "directions": 4
+    },
+	{
+      "name": "wielded-inhand-left",
+      "directions": 4
+    },
+	{
+      "name": "wielded-inhand-right",
       "directions": 4
     }
   ]

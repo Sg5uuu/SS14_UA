@@ -1,4 +1,7 @@
 using System.Linq;
+using Content.Client.Clothing;
+using Content.Shared.Clothing;
+using Content.Shared.Item;
 using Content.Shared.Storage.Components;
 using Content.Shared.Storage.EntitySystems;
 using Robust.Client.GameObjects;
@@ -9,6 +12,7 @@ namespace Content.Client.Storage.Systems;
 public sealed partial class ItemMapperSystem : SharedItemMapperSystem
 {
     [Dependency] private SharedAppearanceSystem _appearance = default!;
+    [Dependency] private SharedItemSystem _item = default!;
     [Dependency] private SpriteSystem _sprite = default!;
 
     public override void Initialize()
@@ -16,6 +20,8 @@ public sealed partial class ItemMapperSystem : SharedItemMapperSystem
         base.Initialize();
         SubscribeLocalEvent<ItemMapperComponent, ComponentStartup>(OnStartup);
         SubscribeLocalEvent<ItemMapperComponent, AppearanceChangeEvent>(OnAppearance);
+        SubscribeLocalEvent<ItemMapperComponent, GetEquipmentVisualsEvent>(OnGetEquipmentVisuals,
+            after: [typeof(ClientClothingSystem)]);
     }
 
     private void OnStartup(EntityUid uid, ItemMapperComponent component, ComponentStartup args)
@@ -36,6 +42,37 @@ public sealed partial class ItemMapperSystem : SharedItemMapperSystem
             }
 
             EnableLayers((uid, component, spriteComponent, args.Component));
+        }
+
+        // Refresh wearer visuals only for ItemMappers that opt into clothing-state overlays.
+        if (component.MapLayers.Values.Any(layer => layer.ClothingStates.Count > 0))
+            _item.VisualsChanged(uid);
+    }
+
+    private void OnGetEquipmentVisuals(EntityUid uid, ItemMapperComponent component, GetEquipmentVisualsEvent args)
+    {
+        // Existing ItemMappers without clothing states (including utility belts) keep their original behavior.
+        if (!component.MapLayers.Values.Any(layer => layer.ClothingStates.Count > 0)
+            || !TryComp<AppearanceComponent>(uid, out var appearance)
+            || !_appearance.TryGetData<ShowLayerData>(uid, StorageMapVisuals.LayerChanged, out var activeLayers, appearance)
+            || !TryComp<SpriteComponent>(uid, out var sprite)
+            || sprite.BaseRSI == null)
+            return;
+
+        foreach (var mapLayer in component.MapLayers.Values)
+        {
+            if (!activeLayers.QueuedEntities.Contains(mapLayer.Layer)
+                || !mapLayer.ClothingStates.TryGetValue(args.Slot, out var state)
+                || !sprite.BaseRSI.TryGetState(state, out _))
+                continue;
+
+            var key = $"{args.Slot}-{mapLayer.Layer}";
+            args.Layers.Add((key, new PrototypeLayerData
+            {
+                RsiPath = sprite.BaseRSI.Path.ToString(),
+                State = state,
+                MapKeys = new HashSet<string> { key },
+            }));
         }
     }
 

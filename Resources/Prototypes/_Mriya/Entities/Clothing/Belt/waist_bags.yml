@@ -18,17 +18,42 @@
 
 - type: entity
   parent: ClothingBeltStorageBase
-  id: ClothingBeltStorageCzeres
+  id: ClothingBeltStorageCheres
   name: черес
-  description: Традиційний широкий шкіряний пояс із кишенями, який використовували для зберігання особистих речей.
+  description: Чоловічий широкий шкіряний пояс із кишенями, який використовували для зберігання особистих речей.
   components:
   - type: Sprite
-    sprite: _Mriya/Clothing/Belt/czeres.rsi
+    sprite: _Mriya/Clothing/Belt/cheres.rsi
   - type: Clothing
-    sprite: _Mriya/Clothing/Belt/czeres.rsi
+    sprite: _Mriya/Clothing/Belt/cheres.rsi
   - type: Storage
     grid:
     - 0,0,3,1
+    blacklist:
+      tags:
+      - Bartka
+  - type: ItemSlots
+    allowSmartEquip: true
+    slots:
+      item:
+        name: Bartka
+        insertVerbText: cheres-insert-bartka-verb
+        ejectVerbText: cheres-eject-bartka-verb
+        insertSound: null
+        ejectSound: null
+        ejectOnBreak: true
+        whitelist:
+          tags:
+          - Bartka
+  - type: ItemMapper
+    mapLayers:
+      icon-bartka:
+        whitelist:
+          tags:
+          - Bartka
+        clothingStates:
+          belt: cheres-bartka-equipped-BELT
+  - type: Appearance
   - type: Item
     size: Ginormous
     shape:

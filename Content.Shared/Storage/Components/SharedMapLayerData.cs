@@ -20,6 +20,10 @@ namespace Content.Shared.Storage.Components
         [DataField(required: true)]
         public EntityWhitelist? Whitelist { get; set; }
 
+        // Optional wearer overlays; only map layers that define these states affect clothing visuals.
+        [DataField("clothingStates")]
+        public Dictionary<string, string> ClothingStates = new();
+
         /// <summary>
         ///     Minimal amount of entities that are valid for whitelist.
         ///     If it's smaller than minimal amount, layer will be hidden.
