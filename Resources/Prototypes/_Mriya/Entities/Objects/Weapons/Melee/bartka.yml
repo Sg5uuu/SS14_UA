@@ -10,6 +10,8 @@
   - type: Item
     size: Normal
     sprite: _Mriya/Objects/Weapons/Melee/bartka.rsi
+    shape:
+    - 0,0,1,3
   - type: Tag
     tags:
     - Bartka
