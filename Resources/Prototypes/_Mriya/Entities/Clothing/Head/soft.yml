@@ -1,0 +1,21 @@
+﻿- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatFacelyk
+  name: фацелик
+  description: Біла лемківська хустина, названа так ще з тих часів, коли римські купці приходили в карпатські гори із своїм крамом.
+  components:
+  - type: Sprite
+    sprite: _Mriya/Clothing/Head/Soft/facelyk.rsi
+  - type: Clothing
+    sprite: _Mriya/Clothing/Head/Soft/facelyk.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHutsulChustka
+  name: гуцульська хустка
+  description: Традиційна гуцульська червона хустка.
+  components:
+  - type: Sprite
+    sprite: _Mriya/Clothing/Head/Soft/hutsul_chustka.rsi
+  - type: Clothing
+    sprite: _Mriya/Clothing/Head/Soft/hutsul_chustka.rsi
