@@ -46,15 +46,12 @@
           tags:
           - Bartka
   - type: ItemMapper
+    sprite: _Mriya/Clothing/Belt/cheres.rsi
     mapLayers:
       icon-bartka:
         whitelist:
           tags:
           - Bartka
-  - type: ItemSlotClothingVisuals
-    itemSlot: item
-    clothingStates:
-      belt: cheres-bartka-equipped-BELT
   - type: Appearance
   - type: Item
     size: Ginormous
