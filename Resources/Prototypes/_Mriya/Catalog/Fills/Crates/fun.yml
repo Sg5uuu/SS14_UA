@@ -1,0 +1,56 @@
+﻿- type: entity
+  parent: CrateGenericSteel
+  id: CrateCarpathianTraditionalClothing
+  name: ящик із традиційним карпатським одягом
+  description: Ящик з одягом гуцулів, лемків, бойків та долинян. Також містить бартку, файку, різдвяну звізду. 
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:AllSelector
+        children:
+        - id: ClothingUniformJumpsuitBoiko
+        - id: ClothingUniformJumpsuitDolynanUzhanskyi
+        - id: ClothingUniformJumpsuitHutsul
+        - id: ClothingUniformJumpsuitLemko
+        - id: ClothingOuterBunda
+        - id: ClothingOuterKeptar
+        - id: ClothingOuterKeptarHolovetskyi
+        - id: ClothingOuterKeptarKosivskyi
+        - id: ClothingOuterKeptarKosmatskyi
+        - id: ClothingOuterKeptarPokutsky
+        - id: ClothingOuterKeptarRakhivskyi
+        - id: ClothingOuterKeptarTsinevskyi
+        - id: ClothingOuterKeptarVerkhovynskyi
+        - id: ClothingOuterKeptarYasinskyi
+        - id: ClothingOuterLeibykBlack
+        - id: ClothingOuterLeibykBlue
+        - id: ClothingOuterLeibykRed
+        - id: ClothingUniformJumpskirtBoiko
+        - id: ClothingUniformJumpskirtDolynanBorzhavskyi
+        - id: ClothingUniformJumpskirtHutsul
+        - id: ClothingUniformJumpskirtLemko
+        - id: ClothingHeadHatKalap
+        - id: ClothingHeadHatKresania
+        - id: ClothingHeadHatKuchmaBlack
+        - id: ClothingHeadHatVengerskyiKapeliukh
+        - id: ClothingHeadHatFacelyk
+        - id: ClothingHeadHatHutsulChustka
+        - id: ClothingHeadHatMulticoloredRibbon
+        - id: ClothingShoesBootsPostoly
+        - id: ClothingOuterWinterKozhukhTsinevskyi
+        - id: ClothingOuterWinterKozhukhLemkivskyi
+        - id: ClothingOuterWinterKozhukhStarokosivskyi
+        - id: ClothingOuterWinterVuiosh
+        - id: ClothingNeckCloakCzuha
+        - id: ClothingNeckCloakGuglia
+        - id: ClothingNeckCloakHunia
+        - id: ClothingNeckCloakPetek
+        - id: ClothingOuterCoatSardak
+        - id: ClothingOuterCoatSardakBoikivskyi
+        - id: ClothingNeckKryza
+        - id: ClothingBackpackTaistra
+        - id: ClothingBeltStorageTabivka
+        - id: ClothingBeltStorageCheres
+        - id: SmokingPipeFaikaFilledTobacco
+        - id: ChristmasStar
+        - id: Bartka
