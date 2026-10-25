@@ -19,3 +19,14 @@
     sprite: _Mriya/Clothing/Head/Soft/hutsul_chustka.rsi
   - type: Clothing
     sprite: _Mriya/Clothing/Head/Soft/hutsul_chustka.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatMulticoloredRibbon
+  name: різнокольорова стрічка
+  description: Різнокольорова стрічка з геометричним орнаментом.
+  components:
+  - type: Sprite
+    sprite: _Mriya/Clothing/Head/Soft/multicolored_ribbon.rsi
+  - type: Clothing
+    sprite: _Mriya/Clothing/Head/Soft/multicolored_ribbon.rsi
