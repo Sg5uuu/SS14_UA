@@ -1,6 +1,6 @@
 ﻿- type: entity
   parent: ClothingUniformSkirtBase
-  id: ClothingUniformJumpskirtBoiko
+  id: MRClothingUniformJumpskirtBoiko
   name: бойківська жіноча ноша
   description: "Традиційний жіночий одяг бойкинь: вишита сорочка та спідниця з вовняним фартухом, прив'язана поясом."
   components:
@@ -14,7 +14,7 @@
 
 - type: entity
   parent: ClothingUniformSkirtBase
-  id: ClothingUniformJumpskirtDolynanBorzhavskyi
+  id: MRClothingUniformJumpskirtDolynanBorzhavskyi
   name: долинянсько-боржавська жіноча ноша
   description: "Традиційний жіночий одяг долинян Боржавської долини: вишита сорочка з косицями та синьою подалкою, оздобленою рослинним орнаментом."
   components:
@@ -28,7 +28,7 @@
 
 - type: entity
   parent: ClothingUniformSkirtBase
-  id: ClothingUniformJumpskirtHutsul
+  id: MRClothingUniformJumpskirtHutsul
   name: гуцульська жіноча ноша
   description: "Традиційний жіночий одяг гуцулок: вишита сорочка та спідниця з двома запасками — спереду й ззаду, підперезана тканим поясом."
   components:
@@ -42,7 +42,7 @@
 
 - type: entity
   parent: ClothingUniformSkirtBase
-  id: ClothingUniformJumpskirtLemko
+  id: MRClothingUniformJumpskirtLemko
   name: лемківська жіноча ноша
   description: "Традиційний жіночий одяг лемкинь: вишита сорочка зі спідником, поверх якого кабат, а спереду — запаска."
   components:

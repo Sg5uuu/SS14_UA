@@ -1,6 +1,6 @@
 ﻿- type: entity
   parent: ClothingShoesBaseButcherable
-  id: ClothingShoesBootsPostoly
+  id: MRClothingShoesBootsPostoly
   name: постоли
   description: Традиційне шкіряне взуття, яке носили селяни. Постоли прив'язували до ноги ремінцями.
   components:

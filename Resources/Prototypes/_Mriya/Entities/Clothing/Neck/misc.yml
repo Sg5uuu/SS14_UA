@@ -1,6 +1,6 @@
 ﻿- type: entity
   parent: ClothingNeckBase
-  id: ClothingNeckKryza
+  id: MRClothingNeckKryza
   name: криза
   description: Традиційна лемківська шийна прикраса у вигляді широкого коміра, оздобленого різнокольоровим бісером.
   components:

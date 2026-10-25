@@ -1,6 +1,6 @@
 ﻿- type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatKalap
+  id: MRClothingHeadHatKalap
   name: калап
   description: |
     Традиційний чорний головний убір лемків.
@@ -16,7 +16,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatKresania
+  id: MRClothingHeadHatKresania
   name: кресаня
   description: Традиційний чорний капелюх гуцулів, оздоблений різнокольоровими стрічками.
   components:
@@ -30,7 +30,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatKuchmaBlack
+  id: MRClothingHeadHatKuchmaBlack
   name: чорна кучма
   description: Це ж не було ще!
   components:
@@ -44,7 +44,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatVengerskyiKapeliukh
+  id: MRClothingHeadHatVengerskyiKapeliukh
   name: венгерський капелюх
   description: Традиційний головний убір бойків, відомий як так званий "венгерський капелюх".
   components:

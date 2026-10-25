@@ -1,6 +1,6 @@
 ﻿- type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatHoodGuglia
+  id: MRClothingHeadHatHoodGuglia
   name: каптур ґуґлі
   description: Білий каптур ґуґлі, який можна накинути на голову.
   components:

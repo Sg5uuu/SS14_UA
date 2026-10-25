@@ -1,6 +1,6 @@
 ﻿- type: entity
   parent: ClothingOuterWinterCoat
-  id: ClothingOuterWinterKozhukhTsinevskyi
+  id: MRClothingOuterWinterKozhukhTsinevskyi
   name: ціневський кожух
   description: Традиційний бойківський кожух, виготовлений кушнірами із села Цінева.
   components:
@@ -21,7 +21,7 @@
 
 - type: entity
   parent: ClothingOuterWinterCoat
-  id: ClothingOuterWinterKozhukhLemkivskyi
+  id: MRClothingOuterWinterKozhukhLemkivskyi
   name: лемківський кожух
   description: |
     Традиційний лемківський кожух з шкіри молодого ягняти.
@@ -44,7 +44,7 @@
 
 - type: entity
   parent: ClothingOuterWinterCoat
-  id: ClothingOuterWinterKozhukhStarokosivskyi
+  id: MRClothingOuterWinterKozhukhStarokosivskyi
   name: старокосівський кожух
   description: Традиційний гуцульський кожух, виготовлений кушнірами із села Старий Косів.
   components:
@@ -65,7 +65,7 @@
 
 - type: entity
   parent: ClothingOuterWinterCoat
-  id: ClothingOuterWinterVuiosh
+  id: MRClothingOuterWinterVuiosh
   name: вуйош
   description: Традиційний теплий піджак долинян із домотканого валяного сукна, оздоблений коміром, манжетами та накладними кишенями.
   components:

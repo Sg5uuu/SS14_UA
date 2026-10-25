@@ -1,6 +1,6 @@
 ﻿- type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatFacelyk
+  id: MRClothingHeadHatFacelyk
   name: фацелик
   description: Біла лемківська хустина, названа так ще з тих часів, коли римські купці приходили в карпатські гори із своїм крамом.
   components:
@@ -11,7 +11,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatHutsulChustka
+  id: MRClothingHeadHatHutsulChustka
   name: гуцульська хустка
   description: Традиційна гуцульська червона хустка.
   components:
@@ -22,7 +22,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatMulticoloredRibbon
+  id: MRClothingHeadHatMulticoloredRibbon
   name: різнокольорова стрічка
   description: Різнокольорова стрічка з геометричним орнаментом.
   components:

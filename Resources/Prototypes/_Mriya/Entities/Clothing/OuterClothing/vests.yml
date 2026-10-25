@@ -1,7 +1,7 @@
 ﻿# Bunda
 - type: entity
   parent: ClothingOuterBase
-  id: ClothingOuterBunda
+  id: MRClothingOuterBunda
   name: бунда
   description: Червоний шкіряний лейбик, оздоблений квітами, шнурівками, ґудзиками та хутром. Такий одяг носили заможні долинянки.
   components:
@@ -13,7 +13,7 @@
 # Keptar
 - type: entity
   parent: ClothingOuterBase
-  id: ClothingOuterKeptar
+  id: MRClothingOuterKeptar
   name: кептар
   description: Традиційний неоздоблений безрукавний верхній одяг, виготовлений з овечої шкіри.
   components:
@@ -28,7 +28,7 @@
 # Keptar Holovetskyi
 - type: entity
   parent: ClothingOuterBase
-  id: ClothingOuterKeptarHolovetskyi
+  id: MRClothingOuterKeptarHolovetskyi
   name: кептар головецький
   description: Традиційний бойківський кептар, виготовлений кушнірами із села Головецько.
   components:
@@ -43,7 +43,7 @@
 # Keptar Kosivskyi
 - type: entity
   parent: ClothingOuterBase
-  id: ClothingOuterKeptarKosivskyi
+  id: MRClothingOuterKeptarKosivskyi
   name: кептар косівський
   description: Традиційний гуцульський кептар косівського стилю.
   components:
@@ -58,7 +58,7 @@
 # Keptar Kosmatskyi
 - type: entity
   parent: ClothingOuterBase
-  id: ClothingOuterKeptarKosmatskyi
+  id: MRClothingOuterKeptarKosmatskyi
   name: кептар космацький
   description: Традиційний гуцульський кептар космацького стилю.
   components:
@@ -73,7 +73,7 @@
 # Keptar Pokutsky
 - type: entity
   parent: ClothingOuterBase
-  id: ClothingOuterKeptarPokutsky
+  id: MRClothingOuterKeptarPokutsky
   name: кептар покутський
   description: Традиційний гуцульський кептар покутського стилю.
   components:
@@ -88,7 +88,7 @@
 # Keptar Rakhivskyi
 - type: entity
   parent: ClothingOuterBase
-  id: ClothingOuterKeptarRakhivskyi
+  id: MRClothingOuterKeptarRakhivskyi
   name: кептар рахівський
   description: Традиційний гуцульський кептар рахівського стилю.
   components:
@@ -103,7 +103,7 @@
 # Keptar Tsinevskyi
 - type: entity
   parent: ClothingOuterBase
-  id: ClothingOuterKeptarTsinevskyi
+  id: MRClothingOuterKeptarTsinevskyi
   name: кептар ціневський
   description: Традиційний бойківський кептар, виготовлений кушнірами із села Цінева.
   components:
@@ -118,7 +118,7 @@
 # Keptar Verkhovynskyi
 - type: entity
   parent: ClothingOuterBase
-  id: ClothingOuterKeptarVerkhovynskyi
+  id: MRClothingOuterKeptarVerkhovynskyi
   name: кептар верховинський
   description: Традиційний гуцульський кептар верховинського стилю.
   components:
@@ -133,7 +133,7 @@
 # Keptar Yasinskyi
 - type: entity
   parent: ClothingOuterBase
-  id: ClothingOuterKeptarYasinskyi
+  id: MRClothingOuterKeptarYasinskyi
   name: кептар ясінський
   description: Традиційний гуцульський кептар ясінського стилю.
   components:
@@ -148,7 +148,7 @@
 # Leibyk Black
 - type: entity
   parent: ClothingOuterBase
-  id: ClothingOuterLeibykBlack
+  id: MRClothingOuterLeibykBlack
   name: чорний лейбик
   description: Традиційний лейбик, безрукавка виготовлена з тканини чорного кольору.
   components:
@@ -160,7 +160,7 @@
 # Leibyk Blue
 - type: entity
   parent: ClothingOuterBase
-  id: ClothingOuterLeibykBlue
+  id: MRClothingOuterLeibykBlue
   name: синій лейбик
   description: Традиційний лейбик, безрукавка виготовлена з тканини синього кольору.
   components:
@@ -172,7 +172,7 @@
 # Leibyk Red
 - type: entity
   parent: ClothingOuterBase
-  id: ClothingOuterLeibykRed
+  id: MRClothingOuterLeibykRed
   name: червоний лейбик
   description: Традиційний лейбик, безрукавка виготовлена з тканини червоного кольору.
   components:

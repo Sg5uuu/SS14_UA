@@ -1,6 +1,6 @@
 - type: entity
   parent: ClothingBeltStorageBase
-  id: ClothingBeltStorageTabivka
+  id: MRClothingBeltStorageTabivka
   name: табівка
   description: Традиційна шкіряна сумка, яку носять на поясі для зберігання особистих речей. У центрі орнаменту зображено двох птахів.
   components:
@@ -18,7 +18,7 @@
 
 - type: entity
   parent: ClothingBeltStorageBase
-  id: ClothingBeltStorageCheres
+  id: MRClothingBeltStorageCheres
   name: черес
   description: Чоловічий широкий шкіряний пояс із кишенями, який використовували для зберігання особистих речей.
   components:
@@ -31,7 +31,7 @@
     - 0,0,3,1
     blacklist:
       tags:
-      - Bartka
+      - MRBartka
   - type: ItemSlots
     allowSmartEquip: true
     slots:
@@ -44,14 +44,14 @@
         ejectOnBreak: true
         whitelist:
           tags:
-          - Bartka
+          - MRBartka
   - type: ItemMapper
     sprite: _Mriya/Clothing/Belt/cheres.rsi
     mapLayers:
       icon-bartka:
         whitelist:
           tags:
-          - Bartka
+          - MRBartka
   - type: Appearance
   - type: Item
     size: Ginormous

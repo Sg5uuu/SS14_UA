@@ -1,6 +1,6 @@
 ﻿- type: entity
   parent: BaseItem
-  id: ChristmasStar
+  id: MRChristmasStar
   name: різдвяна звізда
   description: Традиційна різдвяна звізда на держаку, з якою ходять колядувати. Символізує Вифлеємську зорю.
   components:

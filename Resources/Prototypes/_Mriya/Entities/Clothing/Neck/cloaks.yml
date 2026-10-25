@@ -1,6 +1,6 @@
 ﻿- type: entity
   parent: ClothingNeckBase
-  id: ClothingNeckCloakCzuha
+  id: MRClothingNeckCloakCzuha
   name: чуга
   description: Прямоспинний плащуватий одяг із коричневого саморобного сукна, прикрашений довгими френзлями. У лемків вважалась символом заможності. 
   components:
@@ -9,14 +9,14 @@
 
 - type: entity
   parent: ClothingNeckBase
-  id: ClothingNeckCloakGuglia
+  id: MRClothingNeckCloakGuglia
   name: ґуґля
   description: Традиційний верхній одяг гуцулів. Доповнений каптуром, який можна накинути на голову.
   components:
   - type: Sprite
     sprite: _Mriya/Clothing/Neck/Cloaks/guglia.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHatHoodGuglia
+    clothingPrototype: MRClothingHeadHatHoodGuglia
     requiredSlot:
     - neck
     slot: head
@@ -28,7 +28,7 @@
 
 - type: entity
   parent: ClothingNeckBase
-  id: ClothingNeckCloakHunia
+  id: MRClothingNeckCloakHunia
   name: гуня
   description: Традиційний прямий верхній одяг із довговорсого саморобного сукна, який накидали на плечі.
   components:
@@ -37,7 +37,7 @@
 
 - type: entity
   parent: ClothingNeckBase
-  id: ClothingNeckCloakPetek
+  id: MRClothingNeckCloakPetek
   name: петек
   description: Чорна немохната гуня, характерні для долинян, що живуть по течії р. Боршиви.
   components:

@@ -1,5 +1,5 @@
 ﻿- type: entity
-  id: SmokingPipeFaika
+  id: MRSmokingPipeFaika
   parent: SmokingPipe
   name: файка
   description: Пахне смерекою та тютюном.
@@ -16,8 +16,8 @@
     sprite: _Mriya/Objects/Consumables/Smokeables/Pipes/faika.rsi
 
 - type: entity
-  id: SmokingPipeFaikaFilledTobacco
-  parent: SmokingPipeFaika
+  id: MRSmokingPipeFaikaFilledTobacco
+  parent: MRSmokingPipeFaika
   name: файка
   suffix: Тютюн
   description: Пахне смерекою та тютюном.
@@ -39,8 +39,8 @@
         path: /Audio/Weapons/Guns/Empty/empty.ogg
 
 - type: entity
-  id: SmokingPipeFaikaFilledCannabis
-  parent: SmokingPipeFaika
+  id: MRSmokingPipeFaikaFilledCannabis
+  parent: MRSmokingPipeFaika
   name: файка
   suffix: Канабіс
   description: Пахне смерекою та чимось дивним.
@@ -62,8 +62,8 @@
         path: /Audio/Weapons/Guns/Empty/empty.ogg
 
 - type: entity
-  id: SmokingPipeFaikaFilledCannabisRainbow
-  parent: SmokingPipeFaika
+  id: MRSmokingPipeFaikaFilledCannabisRainbow
+  parent: MRSmokingPipeFaika
   name: файка
   suffix: Веселковий канабіс
   description: Пахне смерекою та чимось дивним.
