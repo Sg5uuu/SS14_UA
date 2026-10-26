@@ -1168,3 +1168,10 @@
   id: 78
   time: '2026-10-17T08:14:34.0000000+00:00'
   url: https://github.com/Space-station-14-UA/SS14_UA/pull/111
+- author: Sg5uuu
+  changes:
+  - message: Added clothing from Carpathian ethnic subgroups and related items.
+    type: Add
+  id: 79
+  time: '2026-10-26T09:30:03.0000000+00:00'
+  url: https://github.com/Space-station-14-UA/SS14_UA/pull/114
