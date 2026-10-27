@@ -18,9 +18,14 @@ changeling-devour-begin-consume-others = Моторошна паща { CAPITALIZ
 changeling-devour-consume-complete-self = Наша моторошна паща ховається, біомасу поглинуто.
 changeling-devour-consume-complete-others = Моторошна паща { CAPITALIZE(POSS-ADJ($user)) } ховається.
 
+changeling-devour-doafter-windup = [color=red]{ CAPITALIZE(POSS-ADJ($user)) } face is splitting open, preparing to feast![/color]
+changeling-devour-doafter = [color=red]{ CAPITALIZE(SUBJECT($user)) } { CONJUGATE-BE($user) } tearing into the flesh of {$target}![/color]
+
 # transformation
 changeling-transform-attempt-self = Наші кістки тріщать, м'язи рвуться, одна плоть стає іншою.
 changeling-transform-attempt-others = Кістки { CAPITALIZE(POSS-ADJ($user)) } тріщать, м'язи рвуться, тіло перетворюється на інше.
+
+changeling-transform-doafter = [color=red]The surface of { POSS-ADJ($user) } skin is melting, taking another shape.[/color]
 
 # transformation BUI
 changeling-transform-bui-select-entity = {$entity}
@@ -43,13 +48,14 @@ changeling-biodegrade-used-popup = {CAPITALIZE($user)} блює кислотою
 changeling-biodegrade-used-popup-self = Ми блюємо кислотою на свої {$restraint}!
 
 # last resort
-changeling-takeover-not-dead = Це тіло все ще живе! Ми не можемо залізти в нього живим.
-changeling-takeover-is-changeling = Це тіло відторгає наші спроби захопити його!
-changeling-takeover-start-others = {CAPITALIZE($user)} починає заповзати всередину трупа!
-changeling-takeover-success-self = Ми успішно залізли в тіло та прибрали його форму.
+changeling-takeover-not-dead = Ця туша все ще жива! Ми не можемо інфестувати її живою.
+changeling-takeover-is-changeling = Ця туша відкидає наші спроби захоплення!
+changeling-takeover-start-others = {$user} починає залазити всередину трупа!
+changeling-takeover-doafter = [color=red]{ CAPITALIZE(SUBJECT($user)) } залазить всередину {$target}![/color]
 
 # stings
-changeling-sting-success = Ми тихо жалимо {$target}!
+changeling-sting-success = Ми безшумно жалимо {$target}!
+changeling-sting-hemotoxin = Ви відчуваєте гострий біль у грудях!
 
 # mindshield
 changeling-fake-mindshield-enabled = Ми випромінюємо фальшиві хвилі захисту розуму.
@@ -59,4 +65,14 @@ changeling-fake-mindshield-disabled = Ми припиняємо випромін
 changeling-not-enough-chemicals = У нас недостатньо хімікатів.
 
 # other
+changeling-action-fail-generic = Ми не можемо зробити це просто зараз.
 changeling-paused-map-name = Карта зберігання особистостей генокрада
+changeling-cocoon-success = Ми огортаємо {$target} у м'ясисту гробницю.
+changeling-cocoon-doafter = [color=red]{ CAPITALIZE(SUBJECT($user)) } вкриває {$target} м'ясистою масою![/color]
+
+# horror transformation
+changeling-horror-alert-time-name = Залишок часу
+changeling-horror-alert-time-desc = Коли цей лічильник досягне 0, ми виснажимо свої сили.
+changeling-horror-force-transform-self = Наша енергія виснажена, ми більше не можемо утримувати цю форму.
+changeling-horror-force-transform-others = Плоть { POSS-ADJ($user) } швидко зморщується та відмирає.
+changeling-horror-transform-fail = У нас недостатньо збереженої ДНК, щоб викрити себе.

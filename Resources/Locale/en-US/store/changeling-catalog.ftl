@@ -14,7 +14,7 @@ changeling-catalog-sting-dna-name = Вилучення ДНК
 changeling-catalog-sting-dna-desc = Навчіться використовувати своє жало, щоб поглинати особистість ні про що не підозрюючих жертв. Не додає ДНК до вашого запасу та не вважається поглинанням.
 
 changeling-catalog-blind-sting-name = Засліплювальне жало
-changeling-catalog-blind-sting-desc = Спричиняє тимчасову сліпоту цілі. Добре підходить для втечі або початку бою. Можна використати на собі.
+changeling-catalog-blind-sting-desc = Завдає шкоди очам та викликає тимчасову сліпоту цілі. Чудово підходить для втечі або початку бою. Можна використати на собі.
 
 changeling-catalog-cryogenic-sting-name = Кріогенне жало
 changeling-catalog-cryogenic-sting-desc = Сповільнює пересування цілі. Ідеально підходить для того, щоб здобич не втекла. Можна використати на собі.
@@ -22,14 +22,14 @@ changeling-catalog-cryogenic-sting-desc = Сповільнює пересува�
 changeling-catalog-lethal-sting-name = Смертельне жало
 changeling-catalog-lethal-sting-desc = Завдає цілі дуже повільних ушкоджень. Марне в бою, але гарантує, що їй знадобиться медична допомога. Можна використати на собі.
 
-changeling-catalog-hallucinogenic-sting-name = Галюциногенне жало
-changeling-catalog-hallucinogenic-sting-desc = Змушує ціль відчувати кайф та ускладнює мовлення. Спричиняє плутанину серед екіпажу. Можна використати на собі.
+changeling-catalog-mute-sting-name = Німий укол
+changeling-catalog-mute-sting-desc = Позбавляє ціль можливості говорити. Непомітний, поки ціль не спробує заговорити. Можна використати на собі.
 
-changeling-catalog-mute-sting-name = Жало німоти
-changeling-catalog-mute-sting-desc = Позбавляє ціль здатності говорити. Поки ціль не спробує заговорити, це непомітно. Можна використати на собі.
+changeling-catalog-armblade-sting-name = Укол клинка-руки
+changeling-catalog-armblade-sting-desc = Змушує ціль після тривалої затримки спонтанно виростити затуплений клинок з руки. Працює миттєво з підвищеною тривалістю при використанні на трупах. Можна використати на собі.
 
-changeling-catalog-screech-name = Вереск [ТИМЧАСОВО]
-changeling-catalog-screech-desc = Ми видаємо потужний вереск, який знезброює тих, хто чує його без належного захисту вух. ЦЮ ДІЮ БУДЕ ПЕРЕНЕСЕНО ДО ЖАХЛИВОЇ ФОРМИ, КОЛИ ЇЇ БУДЕ РЕАЛІЗОВАНО.
+changeling-catalog-hemotoxin-sting-name = Гемотоксичний укол
+changeling-catalog-hemotoxin-sting-desc = Завдає надзвичайної шкоди клітинам крові цілі. Дуже помітний, але смертельно небезпечний, якщо залишити без лікування. Можна використати на собі.
 
 changeling-catalog-last-resort-name = Останній засіб
 changeling-catalog-last-resort-desc = Розриває ваше поточне тіло на шматки й дає змогу втекти у вигляді слабкого головного слимака. Якщо ви заразите гуманоїдний труп, то зможете повернути повноцінне тіло генокрада. Можна придбати лише після поглинання бодай одного тіла.
@@ -41,3 +41,9 @@ changeling-catalog-voice-mindshield-desc = Модифікуйте природн
 
 changeling-catalog-night-vision-name = Нічний зір
 changeling-catalog-night-vision-desc = Ви модифікуєте свої фоторецептори та загострюєте відчуття, щоб бачити в абсолютній темряві.
+
+changeling-catalog-horror-form-name = Форма жаху
+changeling-catalog-horror-form-desc = Перетворює вас на майже нездоланного джаггернаута. Використання цієї здатності є виснажливим, оскільки вона спалює очки ДНК. Коли ДНК закінчиться, ви змушені будете вийти з цієї форми та отримаєте оглушення. Вимагає 3 поглинання для купівлі.
+
+changeling-catalog-fleshtomb-name = Гробниця плоті
+changeling-catalog-fleshtomb-desc = Зберігає труп у м'ясистій в'язниці, повільно збираючи його генетичний код для власного використання. Повільно генерує ДНК, але є дуже крихкою і має зберігатися у відповідній атмосфері, щоб не розпастися.
