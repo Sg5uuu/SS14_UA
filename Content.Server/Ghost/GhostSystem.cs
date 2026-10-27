@@ -78,7 +78,7 @@ namespace Content.Server.Ghost
         [Dependency] private NameModifierSystem _nameMod = default!;
         [Dependency] private GhostSpriteStateSystem _ghostState = default!;
 
-        [Dependency] private readonly NewLifeSystem _newLifeSystem = default!; // Mriya NLS
+        [Dependency] private NewLifeSystem _newLifeSystem = default!; // Mriya NLS
 
         [Dependency] private EntityQuery<GhostComponent> _ghostQuery = default!;
         [Dependency] private EntityQuery<FollowerComponent> _followerQuery = default!;
@@ -653,8 +653,8 @@ namespace Content.Server.Ghost
             //we now need to update the new life system about the new time of ghosting
             if (mind.UserId.HasValue)
             {
-                _newLifeSystem.SaveGhostTime(mind.UserId.Value, _gameTiming.CurTime);
-            }
+                _newLifeSystem.SaveGhostTime(mind.UserId.Value, _timing.CurTime);
+            } 
             //starlight end
 
             return true;

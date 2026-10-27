@@ -60,7 +60,7 @@ public sealed partial class ServerGameTicker
             if (preset != null)
                 newServerName += $" | 🎲 {Loc.GetString(preset.ModeTitle)}";
 
-            newServerName += $" | раунд №{_gameTicker.RoundId}";
+            newServerName += $" | раунд №{RoundId}";
 
             return newServerName;
         }

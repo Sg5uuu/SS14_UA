@@ -1,4 +1,3 @@
-using Content.Server.Mriya.Sponsors;
 using System.Linq;
 using Content.Shared.Access.Components;
 using Content.Shared.Access.Systems;
@@ -37,7 +36,6 @@ public sealed partial class StationSpawningSystem : EntitySystem
     [Dependency] private ActorSystem _actors = default!;
     [Dependency] private HumanoidProfileSystem _humanoidProfile = default!;
     [Dependency] private IdentitySystem _identity = default!;
-    [Dependency] private ISponsorManager _sponsorManager = default!;
     [Dependency] private InventorySystem _inventory = default!;
     [Dependency] private MetaDataSystem _metadata = default!;
     [Dependency] private SharedHandsSystem _handsSystem = default!;
@@ -54,17 +52,6 @@ public sealed partial class StationSpawningSystem : EntitySystem
     [Dependency] private EntityQuery<StorageComponent> _storageQuery;
     [Dependency] private EntityQuery<TransformComponent> _xformQuery;
 
-    protected override bool IsLoadoutAllowed(EntityUid entity, LoadoutPrototype proto)
-    {
-        if (string.IsNullOrEmpty(proto.SponsorTag))
-            return true;
-
-        if (!TryComp<ActorComponent>(entity, out var actor))
-        {
-            return true;
-        }
-        return _sponsorManager.HasTag(actor.PlayerSession.UserId, proto.SponsorTag);
-    }
 
     /// <summary>
     ///     Equips the data from a `RoleLoadout` onto an entity.
@@ -82,9 +69,6 @@ public sealed partial class StationSpawningSystem : EntitySystem
                     Log.Error($"Unable to find loadout prototype for {items.Prototype}");
                     continue;
                 }
-
-                if (!IsLoadoutAllowed(entity, loadoutProto))
-                    continue;
 
                 EquipStartingGear(entity, loadoutProto, raiseEvent: false);
             }
