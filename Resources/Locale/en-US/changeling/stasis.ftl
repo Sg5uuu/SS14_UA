@@ -1,4 +1,4 @@
-﻿changeling-stasis-active-name = [color=red]Вийти зі стазису[/color]
+changeling-stasis-active-name = [color=red]Вийти зі стазису[/color]
 changeling-stasis-active-desc = Вийти зі стазису, вилікувавши всі ушкодження вашого тіла.
 
 changeling-stasis-enter = Ми занурюємося в стазис, накопичуючи сили, щоб піднятися знову.
